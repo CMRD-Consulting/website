@@ -34,29 +34,8 @@
 </template>
 
 <script setup>
-const url = useRequestURL()
 
-useHead({
-  meta: [
-    { name: 'twitter:description', content: 'CMRD Consulting LLC' },
-    { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:title', content: 'CMRD Consulting LLC' },
-    { property: 'twitter:url', content: url.origin },
-    { property: 'twitter:domain', content: url.host },
-    {
-      name: 'twitter:image',
-      content: `${url.origin}/og_image.jpeg`,
-    },
-    { property: 'og:description', content: 'CMRD Consulting LLC' },
-    { property: 'og:url', content: url.origin },
-    { property: 'og:type', content: 'website' },
-    { property: 'og:title', content: 'CMRD Consulting LLC' },
-    {
-      property: 'og:image',
-      content: `${url.origin}/og_image.jpeg`,
-    }
-  ],
-})
+defineOgImageComponent('Frame');
 
 const year = new Date().getFullYear();
 </script>

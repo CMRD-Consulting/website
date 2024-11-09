@@ -4,8 +4,14 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
-      title: 'CMRD Consulting LLC',
+      title: 'CMRD Consulting',
     }
   },
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/seo', '@nuxtjs/robots'],
+  site: {
+    url: 'https://cmrd.dev', 
+    name: 'CMRD Consulting',
+    description: 'CMRD Consulting is a software development and consulting company based in the United States.',
+    defaultLocale: 'en',
+  }, 
 })
