@@ -1,7 +1,7 @@
 <template>
-  <div class="p-10 space-y-8">
+  <div class="p-10 space-y-8 h-dvh flex flex-col">
     <div
-      class="flex items-center justify-center md:justify-start flex-col md:flex-row md:space-x-4"
+      class="flex items-center justify-center md:justify-start flex-col md:flex-row md:space-x-4 flex-none"
     >
       <div
         class="rounded overflow-hidden md:w-20 md:h-20 h-24 w-24 mb-4 md:mb-0 bg-white text-zinc-900 flex flex-col items-center justify-center text-2xl"
@@ -71,12 +71,15 @@
         </div>
       </div>
     </div>
-    <nuxt />
+    <div class="flex-1">
+      <nuxt-page />
+    </div>
+    <div class="flex justify-center text-xs">
+      <div>&copy; {{ year }} CMRD Consulting LLC</div>
+    </div>
   </div>
 </template>
 
 <script setup>
-function handleEmailClick() {
-  window.location.href = "mailto:info@cmrd.dev?subject=Hello";
-}
+const year = new Date().getFullYear();
 </script>
