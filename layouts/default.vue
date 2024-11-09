@@ -12,12 +12,21 @@
             aria-hidden="true"></div>
           <div
             class="absolute inset-1 rounded flex flex-col items-center justify-center text-4xl leading-none bg-neutral-900 text-center">
-            CM<br />RD
+            <div>
+              <div class="flex justify-between">
+                <span>C</span>
+                <span>M</span>
+              </div>
+              <div class="flex justify-between">
+                <span>R</span>
+                <span>D</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="flex flex-col items-center md:items-start space-y-2 animate-fade animate-once animate-delay-[1000ms]">
-        <div class="text-xl md:text-3xl">CMRD Consulting</div>
+        <div class="text-xl md:text-3xl small-caps">CMRD Consulting</div>
         <a href="mailto:info@cmrd.dev?subject=Hello" target="_top"
           class="hover:opacity-100 transition-opacity duration-300 opacity-75">info@cmrd.dev</a>
       </div>

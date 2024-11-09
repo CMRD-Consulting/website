@@ -4,3 +4,6 @@ html {
 }
 @tailwind components;
 @tailwind utilities;
+.small-caps {
+  font-variant-caps: small-caps;
+}
