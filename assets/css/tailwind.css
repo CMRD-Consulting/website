@@ -1,9 +1,17 @@
 @tailwind base;
-html {
-  @apply bg-gradient-to-br from-neutral-950 to-neutral-900 text-indigo-100 tracking-widest;
-}
 @tailwind components;
 @tailwind utilities;
-.small-caps {
-  font-variant-caps: small-caps;
+
+@layer base {
+  html {
+    @apply bg-carbon-bg text-carbon-text-primary antialiased;
+  }
+
+  body {
+    @apply font-sans text-base leading-relaxed;
+  }
+
+  ::selection {
+    @apply bg-white/10;
+  }
 }
