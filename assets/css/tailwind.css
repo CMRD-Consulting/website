@@ -5,6 +5,7 @@
 @layer base {
   html {
     @apply bg-carbon-bg text-carbon-text-primary antialiased;
+    scroll-behavior: smooth;
   }
 
   body {
