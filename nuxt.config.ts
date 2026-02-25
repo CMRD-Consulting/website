@@ -2,9 +2,15 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false,
+    },
+  ],
   app: {
     head: {
-      title: 'CMRD Consulting',
+      title: 'CMRD | Boutique Software Engineering',
       htmlAttrs: {
         lang: 'en',
       },
@@ -22,8 +28,8 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/seo', '@nuxtjs/robots'],
   site: {
     url: 'https://cmrd.dev',
-    name: 'CMRD Consulting',
-    description: 'CMRD Consulting is a software development and consulting company based in the United States.',
+    name: 'CMRD',
+    description: 'We don\'t hire engineers when you need them. We have a curated team of experts—fully trained, vetted, and of the highest caliber—for founders who refuse average software.',
     defaultLocale: 'en',
   },
 })
