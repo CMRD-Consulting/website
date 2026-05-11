@@ -2,7 +2,7 @@
   <div class="relative min-h-dvh w-full flex flex-col">
     <!-- Header -->
     <header class="sticky top-0 z-50 w-full border-b border-carbon-border-subtle bg-carbon-bg/95 backdrop-blur-sm">
-      <div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 md:px-12 lg:px-24">
+      <div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 md:h-24 md:px-12 lg:px-24">
         <NuxtLink to="/" class="flex items-center" aria-label="CMRD Consulting">
           <CmrdLogo class="h-10 w-auto md:h-12" aria-hidden="true" />
         </NuxtLink>
