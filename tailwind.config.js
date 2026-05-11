@@ -1,12 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: [
+    './components/**/*.{vue,js,ts}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './app.vue',
+  ],
   theme: {
     fontFamily: {
       sans: ['"IBM Plex Sans"', 'system-ui', '-apple-system', 'sans-serif'],
       mono: ['"IBM Plex Mono"', 'ui-monospace', 'monospace'],
     },
     extend: {
+      fontWeight: {
+        light: '300',
+        normal: '400',
+        medium: '500',
+        semibold: '600',
+      },
       colors: {
         carbon: {
           bg: '#0a0a0a',

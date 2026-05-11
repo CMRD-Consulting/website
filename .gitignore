@@ -13,6 +13,9 @@ node_modules
 logs
 *.log
 
+# Playwright MCP tool artifacts
+.playwright-mcp
+
 # Misc
 .DS_Store
 .fleet
