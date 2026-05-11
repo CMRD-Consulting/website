@@ -5,7 +5,7 @@
         title="Why most software fails"
         subtitle="The industry has a problem. We built CMRD differently."
       />
-      <div class="space-y-6 text-lg leading-relaxed text-carbon-text-secondary">
+      <div v-reveal class="reveal space-y-6 text-lg leading-relaxed text-carbon-text-secondary">
         <p>
           Cheap resources deliver bugs and delays. "Cost savings" turn into rework, missed deadlines, and technical debt that compounds for years.
         </p>

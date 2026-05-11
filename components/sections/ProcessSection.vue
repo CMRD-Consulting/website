@@ -13,7 +13,8 @@
           <div
             v-for="(step, i) in steps"
             :key="i"
-            class="relative z-10 flex flex-1 flex-col items-center"
+            v-reveal="{ delay: i * 120 }"
+            class="reveal relative z-10 flex flex-1 flex-col items-center"
           >
             <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-carbon-border bg-carbon-surface font-mono text-sm text-carbon-text-secondary">
               {{ i + 1 }}
@@ -35,7 +36,8 @@
         <div
           v-for="(step, i) in steps"
           :key="i"
-          class="flex gap-4"
+          v-reveal="{ delay: i * 120 }"
+          class="reveal flex gap-4"
         >
           <div class="flex flex-col items-center">
             <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-carbon-border bg-carbon-surface font-mono text-sm text-carbon-text-secondary">

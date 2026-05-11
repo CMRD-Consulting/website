@@ -41,6 +41,11 @@ There are no tests, linters, or formatters configured.
 
 **Fade-in animations.** Custom keyframes `fade-in`, `fade-in-up`, `fade-in-delay`, `fade-in-delay-2` are defined in Tailwind config and used on the Hero. Pair with `opacity-0` initial state so SSR'd HTML doesn't flash visible before the animation starts.
 
+**Scroll reveal + parallax.** Two custom helpers, no external deps:
+
+- `v-reveal` directive ([plugins/reveal.ts](plugins/reveal.ts)): adds `.revealed` to an element when it intersects the viewport. Pair with `class="reveal"` for SSR-safe hidden initial state (defined in [assets/css/tailwind.css](assets/css/tailwind.css)). Pass `v-reveal="{ delay: 200 }"` for stagger on grid items. Honors `prefers-reduced-motion`.
+- `useParallax(speed)` composable ([composables/useParallax.ts](composables/useParallax.ts)): returns a reactive Y offset tracking scroll, rAF-throttled. Used in HeroSection for the radial-gradient glow.
+
 ## SEO
 
 `@nuxtjs/seo` and `@nuxtjs/robots` are wired up. Global defaults live in `nuxt.config.ts` under `app.head` and `site`. Per-page metadata uses the `useSeoMeta()` composable inside `<script setup>`.

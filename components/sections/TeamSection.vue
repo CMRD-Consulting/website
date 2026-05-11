@@ -11,11 +11,12 @@
       <a
         v-for="(member, i) in team"
         :key="i"
+        v-reveal="{ delay: i * 120 }"
         :href="member.linkedin"
         target="_blank"
         rel="noopener"
         :aria-label="`View ${member.name}'s LinkedIn profile`"
-        class="group flex max-w-xs flex-col items-center text-center"
+        class="reveal group flex max-w-xs flex-col items-center text-center"
       >
         <div
           class="aspect-square w-32 overflow-hidden rounded-lg border border-carbon-border bg-carbon-surface transition-colors duration-200 group-hover:border-carbon-text-tertiary"

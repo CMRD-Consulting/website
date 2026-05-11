@@ -1,12 +1,17 @@
+<script setup>
+const parallaxOffset = useParallax(0.35)
+</script>
+
 <template>
-  <section class="relative flex min-h-[80vh] flex-col justify-center px-6 md:px-12 lg:px-24">
+  <section class="relative flex min-h-[80vh] flex-col justify-center overflow-hidden px-6 md:px-12 lg:px-24">
     <!-- Subtle gradient background -->
     <div
       class="pointer-events-none absolute inset-0 bg-gradient-to-b from-carbon-bg via-carbon-bg to-transparent"
       aria-hidden="true"
     />
     <div
-      class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,rgba(166,200,255,0.08),transparent)]"
+      :style="{ transform: `translate3d(0, ${parallaxOffset}px, 0)` }"
+      class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,rgba(166,200,255,0.08),transparent)] will-change-transform"
       aria-hidden="true"
     />
 

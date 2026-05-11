@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-12 md:mb-16" :class="centered ? 'text-center' : ''">
+  <div v-reveal class="reveal mb-12 md:mb-16" :class="centered ? 'text-center' : ''">
     <h2
       class="text-3xl font-medium tracking-tight text-carbon-text-primary md:text-4xl lg:text-5xl"
       :class="centered ? 'mx-auto' : ''"

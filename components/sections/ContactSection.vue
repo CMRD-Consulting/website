@@ -7,7 +7,8 @@
         centered
       />
       <form
-        class="space-y-6"
+        v-reveal
+        class="reveal space-y-6"
         @submit.prevent="handleSubmit"
       >
         <div class="grid gap-6 sm:grid-cols-2">

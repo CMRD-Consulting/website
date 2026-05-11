@@ -9,7 +9,8 @@
       <div
         v-for="(project, i) in projects"
         :key="i"
-        class="flex flex-col overflow-hidden rounded-lg border border-carbon-border bg-carbon-surface transition-colors duration-200 hover:border-carbon-text-tertiary"
+        v-reveal="{ delay: i * 80 }"
+        class="reveal flex flex-col overflow-hidden rounded-lg border border-carbon-border bg-carbon-surface transition-colors duration-200 hover:border-carbon-text-tertiary"
       >
         <img
           v-if="project.image"
