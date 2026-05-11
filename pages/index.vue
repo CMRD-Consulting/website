@@ -6,7 +6,6 @@
     <ProcessSection />
     <ProjectsSection />
     <TeamSection />
-    <TrustSignalsSection />
     <ContactSection />
   </div>
 </template>

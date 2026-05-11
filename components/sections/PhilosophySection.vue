@@ -61,14 +61,14 @@
       <div class="rounded-lg border border-carbon-border bg-carbon-surface p-6 transition-colors duration-200 hover:border-carbon-border-subtle hover:bg-carbon-surface-hover">
         <div class="mb-4 flex h-10 w-10 items-center justify-center rounded border border-carbon-border">
           <svg class="h-5 w-5 shrink-0 text-carbon-text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
           </svg>
         </div>
         <h3 class="font-medium text-carbon-text-primary">
-          Quality over velocity
+          Agentic engineering
         </h3>
         <p class="mt-2 font-mono text-sm text-carbon-text-secondary">
-          We ship fewer features — that actually work
+          AI agents pair with every engineer. Velocity multiplied. Standards held.
         </p>
       </div>
       <div class="rounded-lg border border-carbon-border bg-carbon-surface p-6 transition-colors duration-200 hover:border-carbon-border-subtle hover:bg-carbon-surface-hover">

@@ -9,24 +9,27 @@
       <div
         v-for="(project, i) in projects"
         :key="i"
-        class="group relative overflow-hidden rounded-lg border border-carbon-border bg-carbon-surface transition-all duration-200 hover:border-carbon-border-subtle"
+        class="flex flex-col overflow-hidden rounded-lg border border-carbon-border bg-carbon-surface transition-colors duration-200 hover:border-carbon-text-tertiary"
       >
-        <!-- Placeholder thumbnail / gradient -->
-        <div class="aspect-video bg-gradient-to-br from-carbon-surface-hover to-carbon-border" />
-        <div class="p-5">
-          <span class="font-mono text-xs text-carbon-text-tertiary">
+        <img
+          v-if="project.image"
+          :src="project.image"
+          :alt="`${project.industry} screenshot`"
+          class="aspect-video w-full bg-gradient-to-br from-carbon-surface-hover to-carbon-border object-contain"
+          loading="lazy"
+        />
+        <div
+          v-else
+          class="aspect-video bg-gradient-to-br from-carbon-surface-hover to-carbon-border"
+        />
+        <div class="flex flex-1 flex-col p-5">
+          <span class="font-mono text-xs uppercase tracking-wide text-carbon-text-tertiary">
             {{ project.industry }}
           </span>
-          <p class="mt-2 text-carbon-text-primary">
+          <p class="mt-3 text-carbon-text-primary">
             {{ project.outcome }}
           </p>
-        </div>
-        <!-- Hover overlay for more detail -->
-        <div
-          v-if="project.detail"
-          class="absolute inset-0 flex items-center justify-center bg-carbon-bg/95 p-6 opacity-0 transition-opacity duration-200 group-hover:opacity-100"
-        >
-          <p class="text-center text-sm text-carbon-text-secondary">
+          <p class="mt-3 text-sm leading-relaxed text-carbon-text-secondary">
             {{ project.detail }}
           </p>
         </div>
@@ -38,29 +41,40 @@
 <script setup>
 const projects = [
   {
-    industry: 'Fintech platform',
-    outcome: 'Built core payment infrastructure for a Series B startup. Launched on time, zero critical incidents.',
-    detail: 'Full-stack architecture, real-time reconciliation, PCI-compliant design.',
+    industry: "Freight logistics",
+    outcome: "End-to-end platform for trucking carriers—onboarding, load tracking, driver assignment, settlement, factoring, and invoicing.",
+    detail: "Web, mobile, and backend in one codebase. AI document extraction for rate confirmations, real-time dispatch, multi-tenant white-label support.",
+    image: "/projects/carrier1.jpeg",
   },
   {
-    industry: 'AI / Healthcare',
-    outcome: 'Designed and delivered an ML-powered diagnostic tool. FDA submission path defined.',
-    detail: 'Python, TensorFlow, HIPAA-aligned data pipeline, clinical validation support.',
+    industry: "Database infrastructure",
+    outcome: "Two customer-facing tools for a database vendor: a multi-step ROI calculator that qualifies leads into their CRM, and a self-service portal that provisions bare-metal database clusters.",
+    detail: "Provisioning workflow over WebSockets—generates install configs, orchestrates remote power and boot operations, streams install progress in real time.",
+    image: "/projects/edb-beacon.gif",
   },
   {
-    industry: 'Enterprise SaaS',
-    outcome: 'Rescued a stalled migration. Delivered 3 major releases in 6 months.',
-    detail: 'Legacy monolith to microservices, team augmentation, knowledge transfer.',
+    industry: "Consulting operations",
+    outcome: "Operations platform for consulting firms—clients, projects, time, billing, invoicing, and a subcontractor hierarchy for cross-firm engagements.",
+    detail: "Cached role-and-entitlement authorization, multi-tenant data isolation, calendar-based time entry with approval workflow, PDF invoice generation, polymorphic audit log.",
+    image: "/projects/cove.jpeg",
   },
   {
-    industry: 'Developer tools',
-    outcome: 'Shipped a developer platform used by 50K+ engineers. Sub-100ms p99 latency.',
-    detail: 'Go, distributed systems, observability, API design.',
+    industry: "Social music",
+    outcome: "iOS app for small groups to build a shared playlist together—paste a link from any music service and the playlist auto-mirrors to each member's personal library.",
+    detail: "Cross-service track resolution, per-member mirror targets, real-time collaboration, push notifications, share-extension support.",
+    image: "/projects/totem.jpeg",
   },
   {
-    industry: 'Marketplace',
-    outcome: 'Scaled a two-sided marketplace to $10M+ GMV. Fraud detection and trust systems.',
-    detail: 'React, Node, PostgreSQL, Stripe Connect, identity verification.',
+    industry: "Documentation tooling",
+    outcome: "Native desktop app that turns a screen recording into a step-by-step written tutorial—capture clicks, annotate frames, export wiki-ready markdown.",
+    detail: "Auto-detects user actions during recording, runs local OCR for context, calls a vision model to draft per-step narration. No screenshots leave the machine.",
+    image: "/projects/scribe.jpeg",
+  },
+  {
+    industry: "Hospitality POS",
+    outcome: "Mobile tip-entry app that photographs handwritten receipts, extracts the tip, and applies it to the matching transaction in the POS—replacing manual end-of-day reconciliation.",
+    detail: "OCR-first extraction with arithmetic and language-model fallback. Matches receipts to transactions by time window, last-four digits, auth code, and amount with confidence scoring.",
+    image: "/projects/tipsnap.jpeg",
   },
 ];
 </script>
