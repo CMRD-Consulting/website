@@ -47,7 +47,9 @@
         >
           {{ member.role }}
         </p>
-        <p class="mt-3 text-justify text-sm leading-relaxed text-carbon-text-secondary hyphens-auto">
+        <p
+          class="mt-3 text-justify text-sm leading-relaxed text-carbon-text-secondary hyphens-auto"
+        >
           {{ member.bio }}
         </p>
       </a>
@@ -69,7 +71,7 @@ const team = [
     role: "Managing Partner",
     bio: "Two decades architecting mission-critical software—from startups to public companies. Scaled an engineering organization more than threefold by codifying standards, building shared platforms, and mentoring the next bench. That blueprint became CMRD.",
     linkedin: "https://www.linkedin.com/in/crishellco/",
-    image: "/team/christopher-mitchell.jpg",
+    image: "/team/christopher-mitchell.png",
   },
   {
     name: "Richard Dotchin",
