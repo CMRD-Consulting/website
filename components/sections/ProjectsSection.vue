@@ -6,11 +6,15 @@
       centered
     />
     <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-      <div
+      <component
+        :is="project.url ? 'a' : 'div'"
         v-for="(project, i) in projects"
         :key="i"
         v-reveal="{ delay: i * 80 }"
-        class="reveal flex flex-col overflow-hidden rounded-lg border border-carbon-border bg-carbon-surface transition-colors duration-200 hover:border-carbon-text-tertiary"
+        :href="project.url"
+        :target="project.url ? '_blank' : undefined"
+        :rel="project.url ? 'noopener' : undefined"
+        class="reveal group flex flex-col overflow-hidden rounded-lg border border-carbon-border bg-carbon-surface transition-colors duration-200 hover:border-carbon-text-tertiary"
       >
         <img
           v-if="project.image"
@@ -33,8 +37,14 @@
           <p class="mt-3 text-sm leading-relaxed text-carbon-text-secondary">
             {{ project.detail }}
           </p>
+          <span
+            v-if="project.url"
+            class="mt-auto pt-4 font-mono text-xs text-carbon-text-link group-hover:underline"
+          >
+            {{ project.url.replace(/^https?:\/\//, "") }} &nearr;
+          </span>
         </div>
-      </div>
+      </component>
     </div>
   </SectionContainer>
 </template>
@@ -76,6 +86,13 @@ const projects = [
     outcome: "Mobile tip-entry app that photographs handwritten receipts, extracts the tip, and applies it to the matching transaction in the POS—replacing manual end-of-day reconciliation.",
     detail: "OCR-first extraction with arithmetic and language-model fallback. Matches receipts to transactions by time window, last-four digits, auth code, and amount with confidence scoring.",
     image: "/projects/tipsnap.jpeg",
+  },
+  {
+    industry: "Developer tooling",
+    outcome: "Keyboard-driven macOS review inbox for engineers who review a lot of code—the queue is always loaded, the top pull request is already selected, and every review action is one keystroke.",
+    detail: "Built for large pull requests, not just easy ones. Approve a PR in three keystrokes without leaving the keyboard.",
+    image: "https://ratify.cmrd.dev/shots/inbox.webp",
+    url: "https://ratify.cmrd.dev",
   },
 ];
 </script>
