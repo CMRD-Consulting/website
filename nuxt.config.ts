@@ -93,8 +93,11 @@ export default defineNuxtConfig({
           sizes: "180x180",
           href: "/apple-icon-180x180.png",
         },
-        // PWA manifest
-        { rel: "manifest", href: "/manifest.json" },
+        // Web app manifest. Served as `.webmanifest` (the spec's registered
+        // extension) rather than `.json`: Nitro's prerender crawler follows
+        // `.json` hrefs as if they were routes and fails the build with a 404
+        // on the static file, but leaves other extensions alone.
+        { rel: "manifest", href: "/site.webmanifest" },
         // Font preloads
         { rel: "preconnect", href: "https://fonts.googleapis.com" },
         {
