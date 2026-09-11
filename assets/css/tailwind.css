@@ -6,6 +6,8 @@
   html {
     @apply bg-carbon-bg text-carbon-text-primary antialiased;
     scroll-behavior: smooth;
+    /* Keep anchor targets clear of the sticky header (h-20 / md:h-24). */
+    @apply scroll-pt-20 md:scroll-pt-24;
   }
 
   body {
