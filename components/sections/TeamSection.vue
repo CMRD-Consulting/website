@@ -1,8 +1,8 @@
 <template>
   <SectionContainer id="team">
     <SectionHeading
-      title="Fewer people. Far higher caliber."
-      subtitle="Meet the partners who set the standard. Every engineer we train shares the same DNA—same vigor, quality, and obsession with clean code."
+      title="The people who made it."
+      subtitle="The partners who set the standard, and the engineers who exceeded it. We would love to stay in touch."
       centered
     />
     <div
@@ -57,8 +57,8 @@
     <p
       class="mx-auto mt-12 max-w-2xl text-center font-mono text-sm text-carbon-text-tertiary"
     >
-      We don't scale by hiring more people. We scale by training people who code
-      like us—one generation teaching the next.
+      We never scaled by hiring more people. We scaled by training people who
+      code like us, one generation teaching the next. That part does not end.
     </p>
   </SectionContainer>
 </template>

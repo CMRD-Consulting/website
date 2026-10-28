@@ -1,8 +1,8 @@
 <template>
   <SectionContainer id="work">
     <SectionHeading
-      title="Selected engagements"
-      subtitle="A few representative projects. Quality over quantity."
+      title="What we built together"
+      subtitle="A few of the things we are proudest of. Every one of them began as someone's trust, and ended as something real."
       centered
     />
     <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -86,13 +86,6 @@ const projects = [
     outcome: "Mobile tip-entry app that photographs handwritten receipts, extracts the tip, and applies it to the matching transaction in the POS—replacing manual end-of-day reconciliation.",
     detail: "OCR-first extraction with arithmetic and language-model fallback. Matches receipts to transactions by time window, last-four digits, auth code, and amount with confidence scoring.",
     image: "/projects/tipsnap.jpeg",
-  },
-  {
-    industry: "Developer tooling",
-    outcome: "Keyboard-driven macOS review inbox for engineers who review a lot of code—the queue is always loaded, the top pull request is already selected, and every review action is one keystroke.",
-    detail: "Built for large pull requests, not just easy ones. Approve a PR in three keystrokes without leaving the keyboard.",
-    image: "https://ratify.cmrd.dev/shots/inbox.webp",
-    url: "https://ratify.cmrd.dev",
   },
 ];
 </script>
