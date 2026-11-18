@@ -56,7 +56,7 @@ useSchemaOrg([
     name: 'CMRD Consulting',
     alternateName: 'CMRD',
     url: siteUrl,
-    logo: `${siteUrl}/cmrd-logo.png`,
+    logo: `${siteUrl}/logo.png`,
     image: ogImage,
     description,
     email: 'info@cmrd.dev',
