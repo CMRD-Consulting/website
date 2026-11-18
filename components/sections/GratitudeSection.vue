@@ -30,9 +30,8 @@
       <!-- Signature -->
       <div v-reveal="{ delay: 150 }" class="reveal mt-16 pl-6 md:pl-10">
         <p class="text-lg text-carbon-text-primary">With gratitude,</p>
-        <p class="mt-4 font-mono text-sm leading-loose text-carbon-text-secondary">
-          Christopher Mitchell<br />
-          Richard Dotchin
+        <p class="mt-4 font-mono text-sm text-carbon-text-secondary">
+          Chris Mitchell &amp; Rick Dotchin
         </p>
       </div>
     </div>
