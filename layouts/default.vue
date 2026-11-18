@@ -19,7 +19,7 @@
             href="#farewell"
             class="font-mono text-sm text-carbon-text-secondary transition-colors duration-200 hover:text-carbon-text-primary"
           >
-            Say hello
+            Stay in touch
           </a>
         </nav>
       </div>

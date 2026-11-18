@@ -16,13 +16,15 @@
         </p>
       </div>
 
-      <div v-reveal="{ delay: 120 }" class="reveal mt-12 flex flex-col items-center gap-6">
-        <ButtonPrimary href="mailto:info@cmrd.dev">
-          Say hello
-        </ButtonPrimary>
-        <p class="font-mono text-xs text-carbon-text-tertiary">
-          <a href="mailto:info@cmrd.dev" class="text-carbon-text-link hover:text-carbon-text-link-hover">info@cmrd.dev</a>
-          &nbsp;&middot;&nbsp; We would like to keep in touch.
+      <div v-reveal="{ delay: 120 }" class="reveal mt-12">
+        <p class="font-mono text-xs uppercase tracking-[0.2em] text-carbon-text-tertiary">
+          Stay in touch
+        </p>
+        <p class="mt-3 font-mono text-sm">
+          <a
+            href="mailto:info@cmrd.dev"
+            class="text-carbon-text-link transition-colors duration-200 hover:text-carbon-text-link-hover"
+          >info@cmrd.dev</a>
         </p>
       </div>
     </div>
