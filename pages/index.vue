@@ -2,8 +2,6 @@
   <div>
     <FarewellHeroSection />
     <GratitudeSection />
-    <ProjectsSection />
-    <TeamSection />
     <NextChapterSection />
     <RatifySection />
     <FarewellSection />

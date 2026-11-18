@@ -6,7 +6,7 @@
       centered
     />
     <div
-      class="mx-auto grid max-w-5xl grid-cols-1 justify-items-center gap-8 md:grid-cols-3"
+      class="mx-auto grid max-w-3xl grid-cols-1 justify-items-center gap-8 md:grid-cols-2"
     >
       <a
         v-for="(member, i) in team"
@@ -80,14 +80,6 @@ const team = [
     bio: "Frontend architect on platforms ranging from regulated government systems to enterprise-scale data infrastructure. Turns complex domain logic into interfaces engineers and operators both trust.",
     linkedin: "https://www.linkedin.com/in/richarddotchin/",
     image: "/team/richard-dotchin.jpg",
-  },
-  {
-    name: "Maciej Chmurski",
-    initials: "MC",
-    role: "Managing Engineer",
-    bio: "Fourteen years building software across European clients and globally distributed teams. Pairs deep technical execution with the mentoring instinct we look for in every engineer.",
-    linkedin: "https://www.linkedin.com/in/maciej-chmurski/",
-    image: "/team/maciej-chmurski.png",
   },
 ];
 </script>

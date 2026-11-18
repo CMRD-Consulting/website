@@ -32,8 +32,7 @@
         <p class="text-lg text-carbon-text-primary">With gratitude,</p>
         <p class="mt-4 font-mono text-sm leading-loose text-carbon-text-secondary">
           Christopher Mitchell<br />
-          Richard Dotchin<br />
-          Maciej Chmurski
+          Richard Dotchin
         </p>
       </div>
     </div>
