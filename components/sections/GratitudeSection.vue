@@ -9,11 +9,20 @@
         A note from the partners
       </p>
 
+      <!-- Greeting -->
+      <p
+        v-reveal="{ delay: 50 }"
+        class="reveal mt-10 pl-6 text-lg text-carbon-text-primary md:pl-10"
+      >
+        Hello, friends.
+      </p>
+
       <article
         v-for="(letter, i) in letters"
         :key="letter.to"
         v-reveal="{ delay: 100 }"
-        class="reveal mt-14 border-l border-carbon-border pl-6 md:mt-16 md:pl-10"
+        class="reveal border-l border-carbon-border pl-6 md:pl-10"
+        :class="i === 0 ? 'mt-8 md:mt-10' : 'mt-14 md:mt-16'"
       >
         <h2 class="text-2xl font-medium tracking-tight text-carbon-text-primary md:text-3xl">
           {{ letter.to }}
