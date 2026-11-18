@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      title: "CMRD | Boutique Software Engineering",
+      title: "CMRD | Thank You",
       htmlAttrs: {
         lang: "en",
       },
@@ -119,7 +119,7 @@ export default defineNuxtConfig({
     url: "https://cmrd.dev",
     name: "CMRD",
     description:
-      "We don't hire engineers when you need them. We have a curated team of experts—fully trained, vetted, and of the highest caliber—for founders who refuse average software.",
+      "The CMRD team is joining EDB. A note of thanks to our clients and our team, plus Ratify, our code review inbox for macOS.",
     defaultLocale: "en",
   },
 });

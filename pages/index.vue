@@ -1,21 +1,19 @@
 <template>
   <div>
-    <HeroSection />
-    <ProblemSection />
-    <PhilosophySection />
-    <ProcessSection />
-    <ProjectsSection />
-    <TeamSection />
-    <ContactSection />
+    <FarewellHeroSection />
+    <GratitudeSection />
+    <NextChapterSection />
+    <RatifySection />
+    <FarewellSection />
   </div>
 </template>
 
 <script setup>
 const siteUrl = 'https://cmrd.dev';
 const ogImage = `${siteUrl}/og-image.jpeg`;
-const title = 'CMRD | Boutique Software Engineering';
-const description = 'We don\'t hire engineers when you need them. A curated team of experts—fully trained, vetted, and of the highest caliber. Same DNA: same vigor, quality, and obsession with clean code.';
-const imageAlt = 'CMRD — Boutique software engineering. Curated talent. Exceptional outcomes.';
+const title = 'CMRD | Thank You';
+const description = 'The CMRD team is joining EDB. A note of thanks to our clients and our team, plus Ratify, our code review inbox for macOS.';
+const imageAlt = 'CMRD — Thank you to our clients and team.';
 
 useSeoMeta({
   // Core
