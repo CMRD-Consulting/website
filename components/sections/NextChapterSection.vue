@@ -9,20 +9,19 @@
       </p>
       <SectionHeading
         title="Our team is joining EDB."
-        subtitle="The engineers who made CMRD what it was are now part of EDB's governance engineering organization. They go together, and they take the same standard with them."
+        subtitle="The engineers who made CMRD what it is are now part of EDB's governance engineering organization, and they are going together."
         centered
       />
 
       <div v-reveal class="reveal space-y-6 text-lg leading-relaxed text-carbon-text-secondary">
         <p>
-          This is not a leap into the unknown. Our team built the audit and
-          evidence surface for EDB Postgres AI while working alongside EDB's own
-          engineers, so they arrive already knowing the people, the product, and
-          the code. It is the continuation of work they were proud of, with
-          colleagues they already respect.
+          It is a natural next step. Our team built the audit and evidence
+          surface for EDB Postgres AI, working alongside EDB's own engineers, so
+          they already know the people, the product, and the code. They will
+          keep doing work they are proud of, with colleagues they respect.
         </p>
         <p>
-          We could not have asked for a better home for them.
+          We could not have asked for a better home.
         </p>
       </div>
 

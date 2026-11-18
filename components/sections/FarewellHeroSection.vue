@@ -26,7 +26,7 @@ const parallaxOffset = useParallax(0.35)
       </div>
 
       <p class="opacity-0 animate-fade-in font-mono text-xs uppercase tracking-[0.2em] text-carbon-text-tertiary">
-        CMRD Consulting &middot; May 2024 &ndash; November 2026
+        CMRD Consulting &middot; Est. 2024
       </p>
 
       <h1
@@ -40,9 +40,9 @@ const parallaxOffset = useParallax(0.35)
       >
         Our team is
         <a href="#edb" class="text-carbon-text-link transition-colors duration-200 hover:text-carbon-text-link-hover">joining EDB</a>.
-        Before this chapter closes, we wanted to say the thing that matters
-        most: we are grateful. For the clients who trusted a small team with big
-        problems. For the engineers who made that trust easy to keep.
+        Before this chapter closes, we want to say what matters most: thank
+        you. To the clients who trusted us with their most important work, and
+        to the engineers who delivered it.
       </p>
 
       <div class="mt-10 flex flex-col items-center justify-center gap-6 opacity-0 animate-fade-in-delay-2 sm:flex-row">

@@ -44,17 +44,17 @@ const letters = [
   {
     to: "To our clients",
     body: [
-      "You let us in. Into your roadmaps, your codebases, your late-night threads, and the parts of your business that were hard to talk about. You trusted a handful of people you had only just met to build the things your companies depended on. We never once took that lightly.",
-      "Every rate confirmation parsed, every cluster provisioned, every invoice generated, every receipt matched. Those were never just features to us. They were promises we had made to you, kept one commit at a time.",
-      "Thank you for the trust. Thank you for the patience when we got it wrong, and for the partnership that made getting it right feel like the only acceptable outcome. We are better engineers, and better people, for having worked alongside you.",
+      "You brought us into your companies and trusted us with the software your businesses run on. We never took that lightly.",
+      "You gave us meaningful work and the room to do it properly. You treated us as partners, and the work was better for it.",
+      "Thank you for your trust, your candor, and your partnership. We are better engineers, and better people, for having worked alongside you.",
     ],
   },
   {
     to: "To our team",
     body: [
-      "You are the reason any of this worked. We set out to prove that fewer people of far higher caliber could outbuild teams many times our size. You proved it quietly, on every engagement, without ever being asked to.",
-      "You took the standards we handed you, made them your own, and then raised them. You cared about clean code when nobody was watching, and about each other when it mattered most. That is not something a company can hire for. It is something a family grows into.",
-      "Now you take that standard to EDB, together. Whatever comes next, for CMRD and for each of you, you carry the DNA. Thank you for building this with us. It has been the privilege of our careers.",
+      "You are the reason any of this worked. We set out to show what a small, senior team can do when everyone holds the same high standard. You showed it on every engagement.",
+      "You took the standard we set and raised it. You cared about the quality of your work when no one was checking, and you looked out for each other along the way.",
+      "Now you take that standard to EDB, together. We are proud of what you built and grateful we got to build it with you. It has been the privilege of our careers.",
     ],
   },
 ];

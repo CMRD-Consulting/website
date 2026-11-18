@@ -7,13 +7,12 @@
       />
       <div v-reveal class="reveal space-y-6 text-lg leading-relaxed text-carbon-text-secondary">
         <p>
-          We do not know exactly what the future holds for CMRD, and we are
-          choosing to leave that door open rather than close it. The name stays.
-          The domain stays. The inbox stays.
+          What comes next for CMRD is an open question, and we are glad to
+          leave it open. The name stays, and so does this site.
         </p>
         <p>
           If the day comes to build again, this is where you will hear about it
-          first. Until then: thank you, truly, for everything.
+          first. Until then, thank you for everything.
         </p>
       </div>
 
