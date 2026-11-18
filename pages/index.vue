@@ -4,6 +4,7 @@
     <GratitudeSection />
     <ProjectsSection />
     <TeamSection />
+    <NextChapterSection />
     <RatifySection />
     <FarewellSection />
   </div>
@@ -13,7 +14,7 @@
 const siteUrl = 'https://cmrd.dev';
 const ogImage = `${siteUrl}/og-image.jpeg`;
 const title = 'CMRD | Thank You';
-const description = 'CMRD Consulting has been acquired. A note of thanks to the clients and engineers who made it possible, and a pointer to Ratify, which lives on.';
+const description = 'The CMRD team is joining EDB. A note of thanks to the clients and engineers who made it possible, and a pointer to Ratify, which lives on.';
 const imageAlt = 'CMRD — Thank you to our clients and team.';
 
 useSeoMeta({

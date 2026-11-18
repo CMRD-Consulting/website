@@ -55,7 +55,7 @@ const letters = [
     body: [
       "You are the reason any of this worked. We set out to prove that fewer people of far higher caliber could outbuild teams many times our size. You proved it quietly, on every engagement, without ever being asked to.",
       "You took the standards we handed you, made them your own, and then raised them. You cared about clean code when nobody was watching, and about each other when it mattered most. That is not something a company can hire for. It is something a family grows into.",
-      "Whatever comes next, for CMRD and for each of you, you carry the DNA. Thank you for building this with us. It has been the privilege of our careers.",
+      "Now you take that standard to EDB, together. Whatever comes next, for CMRD and for each of you, you carry the DNA. Thank you for building this with us. It has been the privilege of our careers.",
     ],
   },
 ];

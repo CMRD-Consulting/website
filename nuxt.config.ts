@@ -119,7 +119,7 @@ export default defineNuxtConfig({
     url: "https://cmrd.dev",
     name: "CMRD",
     description:
-      "CMRD Consulting has been acquired. A note of thanks to the clients and engineers who made it possible, and a pointer to Ratify, which lives on.",
+      "The CMRD team is joining EDB. A note of thanks to the clients and engineers who made it possible, and a pointer to Ratify, which lives on.",
     defaultLocale: "en",
   },
 });
