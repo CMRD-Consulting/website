@@ -22,7 +22,8 @@
             review action is a single keystroke.
           </p>
           <p class="mt-4 text-lg leading-relaxed text-carbon-text-secondary">
-            Ratify stays with CMRD, and we would love for you to try it.
+            Ratify stays with CMRD. Chris Mitchell and Rick Dotchin will keep
+            supporting and updating it, and we would love for you to try it.
           </p>
           <div class="mt-8">
             <ButtonPrimary href="https://ratify.cmrd.dev" target="_blank" rel="noopener">
