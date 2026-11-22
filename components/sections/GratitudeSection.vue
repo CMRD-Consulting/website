@@ -40,7 +40,10 @@
       <div v-reveal="{ delay: 150 }" class="reveal mt-16 pl-6 md:pl-10">
         <p class="text-lg text-carbon-text-primary">With gratitude,</p>
         <p class="mt-4 font-mono text-sm text-carbon-text-secondary">
-          Chris Mitchell, Managing Partner
+          Chris Mitchell &amp; Rick Dotchin
+        </p>
+        <p class="mt-1 font-mono text-xs text-carbon-text-tertiary">
+          Founders and Managing Partners
         </p>
       </div>
     </div>
