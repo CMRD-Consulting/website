@@ -45,14 +45,14 @@
             alt="Chris Mitchell's signature"
             width="640"
             height="302"
-            class="h-auto w-[200px] max-w-[46%] opacity-90"
+            class="h-auto w-[200px] max-w-[42%] opacity-90"
           >
           <img
             src="/signatures/rick-dotchin.png"
             alt="Rick Dotchin's signature"
             width="640"
             height="150"
-            class="h-auto w-[220px] max-w-[48%] opacity-90"
+            class="h-auto w-[265px] max-w-[52%] opacity-90"
           >
         </div>
         <p class="mt-4 font-mono text-sm text-carbon-text-secondary">
