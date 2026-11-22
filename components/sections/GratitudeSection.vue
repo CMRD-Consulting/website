@@ -39,6 +39,22 @@
       <!-- Signature -->
       <div v-reveal="{ delay: 150 }" class="reveal mt-16 pl-6 md:pl-10">
         <p class="text-lg text-carbon-text-primary">With gratitude,</p>
+        <div class="mt-6 flex items-end gap-6 md:gap-10">
+          <img
+            src="/signatures/chris-mitchell.png"
+            alt="Chris Mitchell's signature"
+            width="640"
+            height="302"
+            class="h-auto w-[200px] max-w-[46%] opacity-90"
+          >
+          <img
+            src="/signatures/rick-dotchin.png"
+            alt="Rick Dotchin's signature"
+            width="640"
+            height="150"
+            class="h-auto w-[220px] max-w-[48%] opacity-90"
+          >
+        </div>
         <p class="mt-4 font-mono text-sm text-carbon-text-secondary">
           Chris Mitchell &amp; Rick Dotchin
         </p>
