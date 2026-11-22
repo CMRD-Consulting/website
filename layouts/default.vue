@@ -11,13 +11,13 @@
             href="https://ratify.cmrd.dev"
             target="_blank"
             rel="noopener"
-            class="font-mono text-sm text-carbon-text-secondary transition-colors duration-200 hover:text-carbon-text-primary"
+            class="-my-2.5 py-2.5 font-mono text-sm text-carbon-text-secondary transition-colors duration-200 hover:text-carbon-text-primary"
           >
             Ratify &nearr;
           </a>
           <a
             href="#contact"
-            class="font-mono text-sm text-carbon-text-secondary transition-colors duration-200 hover:text-carbon-text-primary"
+            class="-my-2.5 py-2.5 font-mono text-sm text-carbon-text-secondary transition-colors duration-200 hover:text-carbon-text-primary"
           >
             Stay in touch
           </a>
@@ -40,7 +40,7 @@
           href="https://ratify.cmrd.dev"
           target="_blank"
           rel="noopener"
-          class="font-mono text-xs text-carbon-text-tertiary transition-colors duration-200 hover:text-carbon-text-secondary"
+          class="-my-3 py-3 font-mono text-xs text-carbon-text-tertiary transition-colors duration-200 hover:text-carbon-text-secondary"
         >
           Ratify is a CMRD product &nearr;
         </a>

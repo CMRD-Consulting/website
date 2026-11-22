@@ -23,7 +23,7 @@
         <p class="mt-3 font-mono text-sm">
           <a
             href="mailto:info@cmrd.dev"
-            class="text-carbon-text-link transition-colors duration-200 hover:text-carbon-text-link-hover"
+            class="-my-2.5 inline-block py-2.5 text-carbon-text-link transition-colors duration-200 hover:text-carbon-text-link-hover"
           >info@cmrd.dev</a>
         </p>
       </div>
