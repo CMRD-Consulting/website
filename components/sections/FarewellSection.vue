@@ -1,5 +1,5 @@
 <template>
-  <SectionContainer id="farewell" narrow>
+  <SectionContainer id="contact" narrow>
     <div class="mx-auto max-w-2xl text-center">
       <SectionHeading
         title="Until next time."

@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
-      title: "CMRD | Thank You",
+      title: "Thank You",
       htmlAttrs: {
         lang: "en",
       },

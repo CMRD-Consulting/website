@@ -3,9 +3,9 @@
     <!-- Header -->
     <header class="sticky top-0 z-50 w-full border-b border-carbon-border-subtle bg-carbon-bg/95 backdrop-blur-sm">
       <div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 md:h-24 md:px-12 lg:px-24">
-        <NuxtLink to="/" class="flex items-center" aria-label="CMRD Consulting">
+        <a href="https://cmrd.dev" class="flex items-center" aria-label="CMRD Consulting home">
           <CmrdLogo class="h-10 w-auto md:h-12" aria-hidden="true" />
-        </NuxtLink>
+        </a>
         <nav class="flex items-center gap-6 md:gap-8" aria-label="Primary">
           <a
             href="https://ratify.cmrd.dev"
@@ -16,7 +16,7 @@
             Ratify &nearr;
           </a>
           <a
-            href="#farewell"
+            href="#contact"
             class="font-mono text-sm text-carbon-text-secondary transition-colors duration-200 hover:text-carbon-text-primary"
           >
             Stay in touch

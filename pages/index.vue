@@ -11,7 +11,8 @@
 <script setup>
 const siteUrl = 'https://cmrd.dev';
 const ogImage = `${siteUrl}/og-image.jpeg`;
-const title = 'CMRD | Thank You';
+const title = 'Thank You';
+const fullTitle = 'Thank You | CMRD';
 const description = 'The CMRD team is joining EDB. A note of thanks to our clients and our team, plus Ratify, our code review inbox for macOS.';
 const imageAlt = 'CMRD — Thank you to our clients and team.';
 
@@ -24,7 +25,7 @@ useSeoMeta({
   colorScheme: 'dark',
 
   // Open Graph
-  ogTitle: title,
+  ogTitle: fullTitle,
   ogDescription: description,
   ogUrl: siteUrl,
   ogType: 'website',
@@ -38,7 +39,7 @@ useSeoMeta({
 
   // Twitter Card
   twitterCard: 'summary_large_image',
-  twitterTitle: title,
+  twitterTitle: fullTitle,
   twitterDescription: description,
   twitterImage: ogImage,
   twitterImageAlt: imageAlt,

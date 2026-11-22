@@ -21,6 +21,10 @@
           keep doing work they are proud of, with colleagues they respect.
         </p>
         <p>
+          CMRD's partners are going with them. Chris Mitchell and Rick Dotchin
+          are both joining EDB alongside the team.
+        </p>
+        <p>
           We could not have asked for a better home.
         </p>
       </div>
@@ -64,6 +68,6 @@ const article = {
   source: "PR Newswire",
   date: "November 12, 2026",
   title: "EDB Brings Proven Agentic and Governance Engineering Talent In-House for Its Sovereign AI Data System",
-  url: "https://finance.yahoo.com/technology/ai/articles/edb-brings-proven-agentic-governance-183600057.html",
+  url: "https://www.prnewswire.com/news-releases/edb-brings-proven-agentic-and-governance-engineering-talent-in-house-for-its-sovereign-ai-data-system-302938289.html",
 };
 </script>
