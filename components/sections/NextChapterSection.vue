@@ -9,20 +9,20 @@
       </p>
       <SectionHeading
         title="Our team is joining EDB."
-        subtitle="The engineers who made CMRD what it is are now part of EDB's governance engineering organization, and they are going together."
+        subtitle="The people who made CMRD are joining EDB together, as one team, to keep working on AI governance."
         centered
       />
 
       <div v-reveal class="reveal space-y-6 text-lg leading-relaxed text-carbon-text-secondary">
         <p>
-          It is a natural next step. Our team built the audit and evidence
-          surface for EDB Postgres AI, working alongside EDB's own engineers, so
-          they already know the people, the product, and the code. They will
-          keep doing work they are proud of, with colleagues they respect.
+          It is a natural next step. We have been working with EDB on AI
+          governance, alongside EDB's own engineers, so we already know the
+          people and the work. We will keep doing work we are proud of, with
+          colleagues we respect.
         </p>
         <p>
-          CMRD's partners are going with them. Chris Mitchell and Rick Dotchin
-          are both joining EDB alongside the team.
+          That includes CMRD's founders, Chris Mitchell and Rick Dotchin. We
+          are going as one team.
         </p>
         <p>
           We could not have asked for a better home.

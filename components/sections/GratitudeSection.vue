@@ -81,7 +81,7 @@ const letters = [
     body: [
       "You are the reason any of this worked. We set out to show what a small, senior team can do when everyone holds the same high standard. You showed it on every engagement.",
       "You took the standard we set and raised it. You cared about the quality of your work when no one was checking, and you looked out for each other along the way.",
-      "Now you take that standard to EDB, together. We are proud of what you built and grateful we got to build it with you. It has been the privilege of our careers.",
+      "Now we take that standard to EDB, together. We are proud of what you built, and grateful we get to keep building with you.",
     ],
   },
 ];

@@ -16,10 +16,12 @@
             Ratify lives on.
           </h2>
           <p class="mt-6 text-lg leading-relaxed text-carbon-text-secondary">
-            Ratify is the product we built for ourselves: a keyboard-driven
-            macOS review inbox for engineers who review a lot of code. The queue
-            is always loaded, the top pull request is already selected, and every
-            review action is a single keystroke.
+            Ratify is the agentic code review tool we built for ourselves: a
+            macOS review inbox for engineers who review a lot of code. Point it
+            at a model you own and it reads the queue before you do, writing a
+            brief for each pull request and proposing findings as comments. The
+            agents propose, you decide, and every review action is a single
+            keystroke.
           </p>
           <p class="mt-4 text-lg leading-relaxed text-carbon-text-secondary">
             Ratify stays with CMRD. Chris Mitchell and Rick Dotchin will keep

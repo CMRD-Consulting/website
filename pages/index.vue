@@ -13,7 +13,7 @@ const siteUrl = 'https://cmrd.dev';
 const ogImage = `${siteUrl}/og-image.jpeg`;
 const title = 'Thank You';
 const fullTitle = 'Thank You | CMRD';
-const description = 'The CMRD team is joining EDB. A note of thanks to our clients and our team, plus Ratify, our code review inbox for macOS.';
+const description = 'The CMRD team is joining EDB. A note of thanks to our clients and our team, plus Ratify, our agentic code review tool for macOS.';
 const imageAlt = 'CMRD — Thank you to our clients and team.';
 
 useSeoMeta({
