@@ -80,7 +80,7 @@ const letters = [
     to: "To our team",
     body: [
       "You are the reason any of this worked. We set out to show what a small, senior team can do when everyone holds the same high standard. You showed it on every engagement.",
-      "You took the standard we set and raised it. You cared about the quality of your work when no one was checking, and you looked out for each other along the way.",
+      "You took the standard we set and raised it. You cared about every piece of work you put your name on, and you looked out for each other along the way.",
       "Now we take that standard to EDB, together. We are proud of what you built, and grateful we get to keep building with you.",
     ],
   },
