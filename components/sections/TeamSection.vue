@@ -1,12 +1,12 @@
 <template>
   <SectionContainer id="team">
     <SectionHeading
-      title="Fewer people. Far higher caliber."
-      subtitle="Meet the partners who set the standard. Every engineer we train shares the same DNA—same vigor, quality, and obsession with clean code."
+      title="The people who made it."
+      subtitle="The partners who set the standard, and the engineers who exceeded it. We would love to stay in touch."
       centered
     />
     <div
-      class="mx-auto grid max-w-5xl grid-cols-1 justify-items-center gap-8 md:grid-cols-3"
+      class="mx-auto grid max-w-3xl grid-cols-1 justify-items-center gap-8 md:grid-cols-2"
     >
       <a
         v-for="(member, i) in team"
@@ -57,8 +57,8 @@
     <p
       class="mx-auto mt-12 max-w-2xl text-center font-mono text-sm text-carbon-text-tertiary"
     >
-      We don't scale by hiring more people. We scale by training people who code
-      like us—one generation teaching the next.
+      We never scaled by hiring more people. We scaled by training people who
+      code like us, one generation teaching the next. That part does not end.
     </p>
   </SectionContainer>
 </template>
@@ -80,14 +80,6 @@ const team = [
     bio: "Frontend architect on platforms ranging from regulated government systems to enterprise-scale data infrastructure. Turns complex domain logic into interfaces engineers and operators both trust.",
     linkedin: "https://www.linkedin.com/in/richarddotchin/",
     image: "/team/richard-dotchin.jpg",
-  },
-  {
-    name: "Maciej Chmurski",
-    initials: "MC",
-    role: "Managing Engineer",
-    bio: "Fourteen years building software across European clients and globally distributed teams. Pairs deep technical execution with the mentoring instinct we look for in every engineer.",
-    linkedin: "https://www.linkedin.com/in/maciej-chmurski/",
-    image: "/team/maciej-chmurski.png",
   },
 ];
 </script>

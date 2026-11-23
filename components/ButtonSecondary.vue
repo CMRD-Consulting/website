@@ -2,7 +2,7 @@
   <NuxtLink
     v-if="to"
     :to="to"
-    class="inline-flex items-center gap-2 font-mono text-sm text-carbon-text-link transition-colors duration-200 hover:text-carbon-text-link-hover"
+    class="-my-2.5 inline-flex items-center gap-2 py-2.5 font-mono text-sm text-carbon-text-link transition-colors duration-200 hover:text-carbon-text-link-hover"
     :class="$attrs.class"
   >
     <slot />
@@ -13,7 +13,7 @@
   <a
     v-else
     :href="href"
-    class="inline-flex items-center gap-2 font-mono text-sm text-carbon-text-link transition-colors duration-200 hover:text-carbon-text-link-hover"
+    class="-my-2.5 inline-flex items-center gap-2 py-2.5 font-mono text-sm text-carbon-text-link transition-colors duration-200 hover:text-carbon-text-link-hover"
     :class="$attrs.class"
   >
     <slot />

@@ -1,21 +1,20 @@
 <template>
   <div>
-    <HeroSection />
-    <ProblemSection />
-    <PhilosophySection />
-    <ProcessSection />
-    <ProjectsSection />
-    <TeamSection />
-    <ContactSection />
+    <FarewellHeroSection />
+    <GratitudeSection />
+    <NextChapterSection />
+    <RatifySection />
+    <FarewellSection />
   </div>
 </template>
 
 <script setup>
 const siteUrl = 'https://cmrd.dev';
 const ogImage = `${siteUrl}/og-image.jpeg`;
-const title = 'CMRD | Boutique Software Engineering';
-const description = 'We don\'t hire engineers when you need them. A curated team of experts—fully trained, vetted, and of the highest caliber. Same DNA: same vigor, quality, and obsession with clean code.';
-const imageAlt = 'CMRD — Boutique software engineering. Curated talent. Exceptional outcomes.';
+const title = 'Thank You';
+const fullTitle = 'Thank You | CMRD';
+const description = 'The CMRD team is joining EDB. A note of thanks to our clients and our team, plus Ratify, our agentic code review tool for macOS.';
+const imageAlt = 'CMRD — Thank you to our clients and team.';
 
 useSeoMeta({
   // Core
@@ -26,7 +25,7 @@ useSeoMeta({
   colorScheme: 'dark',
 
   // Open Graph
-  ogTitle: title,
+  ogTitle: fullTitle,
   ogDescription: description,
   ogUrl: siteUrl,
   ogType: 'website',
@@ -40,7 +39,7 @@ useSeoMeta({
 
   // Twitter Card
   twitterCard: 'summary_large_image',
-  twitterTitle: title,
+  twitterTitle: fullTitle,
   twitterDescription: description,
   twitterImage: ogImage,
   twitterImageAlt: imageAlt,
@@ -58,7 +57,7 @@ useSchemaOrg([
     name: 'CMRD Consulting',
     alternateName: 'CMRD',
     url: siteUrl,
-    logo: `${siteUrl}/cmrd-logo.png`,
+    logo: `${siteUrl}/logo.png`,
     image: ogImage,
     description,
     email: 'info@cmrd.dev',
